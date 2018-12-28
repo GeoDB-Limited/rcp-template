@@ -1,0 +1,21 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.geodb.e4.rcp.template</groupId>
+	<artifactId>com.geodb.e4.rcp.template.root</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.geodb.e4.rcp.template</groupId>
+		<artifactId>com.geodb.e4.rcp.template.configuration</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>./releng/com.geodb.e4.rcp.template.configuration</relativePath>
+	</parent>
+
+	<modules>
+		<module>apps</module>
+		<module>bundles</module>
+		<module>features</module>
+		<module>releng</module>
+	</modules>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.geodb.e4.rcp.template.feature.something"
+      label="Somethjing"
+      version="1.0.0.qualifier"
+      provider-name="GEODB">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="javax.inject"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.e4.ui.model.workbench"/>
+      <import plugin="org.eclipse.e4.ui.di"/>
+      <import plugin="org.eclipse.e4.ui.services"/>
+      <import plugin="org.eclipse.e4.core.di.annotations"/>
+      <import plugin="javax.annotation"/>
+      <import feature="com.geodb.e4.rcp.template.feature.app.rcp" version="1.0.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="com.geodb.e4.rcp.template.something"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
